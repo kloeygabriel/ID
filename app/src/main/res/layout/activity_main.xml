@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="416dp"
+        android:layout_height="270dp"
+        android:background="@drawable/BB"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="24dp"
+        android:text="Phone No. (075) 204-9020"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="64dp"
+        android:background="@drawable/UCU_logo"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="40dp"
+        android:text="URDANETA CITY UNIVERSITY"
+        android:textColor="@color/colorWhite"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="26dp"
+        android:text="San Vicente West, Urdaneta Pangasinan"
+        android:textColor="@color/colorWhite"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="23dp"
+        android:text="Email:info@ucu.edu.ph/ucu.reg@gmail.com"
+        android:textColor="@color/colorWhite"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student ID:20194516"
+        android:textColor="@color/colordarkRed"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:layout_width="415dp"
+        android:layout_height="38dp"
+        android:background="@color/colordarkRed"
+        android:gravity="center"
+        android:text="BSIT"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="186dp"
+        android:background="@drawable/DD"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:layout_width="408dp"
+        android:layout_height="48dp"
+        android:background="@color/colordarkRed"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="CLOE MAE A. GABRIEL"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bottom"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="702dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
